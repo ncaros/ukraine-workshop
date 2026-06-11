@@ -1,0 +1,11 @@
+docs/
+/.quarto/
+__pycache__/
+*.pyc
+
+**/*.quarto_ipynb
+
+# pixi environments (not the config or lockfile)
+.pixi/*
+!.pixi/config.toml
+cache/
